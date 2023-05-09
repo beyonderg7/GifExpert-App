@@ -1,5 +1,5 @@
 
-
+import PropType from 'prop-types'
 import React from 'react'
 
 export const GifItem = ({title, id, url}) => {
@@ -17,3 +17,20 @@ export const GifItem = ({title, id, url}) => {
    
   )
 }
+
+
+GifItem.prototypes = {
+
+
+   title: PropType.string.isRequired,
+   url: PropType.string.isRequired
+
+}
+
+
+GifItem.defaultProps = {
+
+  title: "Aqui va el titulo",
+  url: "Aqui va la url"
+}
+
