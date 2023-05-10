@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Pruebas en el component GifExpertApp  1`] = `
+exports[`Pruebas en el component GifExpertApp Verificar que si añada una categoria y luego limpie el input 1`] = `
 <div>
   <h1>
     GifExpertApp
