@@ -23,9 +23,10 @@ export const GifExpertApp = () => {
 
     setCategory([converted,...categorias]);
 
-    //setCategory((cat) => [...cat,'Vice City']);
-      
+    //setCategory((cat) => [...cat,'Vice City']);     
   }
+
+
 
   return (
     <>
@@ -37,8 +38,6 @@ export const GifExpertApp = () => {
 
         {/* <AddCategory onAddCategory={setCategory}></AddCategory> */}
 
-        {/*        
-        <button onClick={agregarCategoria}>Agregar categoria</button> */}
         
      
           {       
